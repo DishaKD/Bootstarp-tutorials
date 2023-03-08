@@ -1,0 +1,62 @@
+Boot strap Containers
+  - Important an Basic layout element in Bootstrap
+  - There 2 type of Containers
+     - <div class="container"></div> //fixed width
+     - <div class="container-fluid"></div> // 100% of the width of the screen size
+
+  - Fluid container 
+    - width is always 100%
+
+  - Fixed container
+    - Dimensions of fixed container
+      - Extra Small < 576px - 100% (Max width)
+      - Small >= 576px - 540px (Max width)
+      - Medium >= 768px - 720px (Max width)
+      - Large >= 992px - 960px (Max width)
+      - Extra Large >= 1200px - 1140px (Max width)
+  
+  - Why use fixed layout at all ?
+  - static pixels
+
+   -Desktop / Screen
+    - fixed width
+
+   - There are use cases where you might want to have a fixed width - fluid ?
+   - login screen
+     - username/password
+       -100%
+
+    - fixed width and adopt to screen resolutions
+   -static website 
+    -real state company
+    -restaurant
+    -Small medium scale website
+
+Fluid
+- always about percentage design
+ - 40% sidebar
+ - 60% main content
+
+-always occupy 100% width of the device screen
+ -mobile
+ -ipad
+ -Desktop
+ -larger screens
+
+
+Bootstrap Grid
+- Design layout, templates of the websites
+- Bootstrap grid allows up to 12 columns in a row
+- Grid - it consist of row and columns
+  - in a one row we can have up to max 12 columns using bootstrap 
+- Bootstrap grid supports various screen resolutions/sizes
+ -xs - extra Small
+ -Sm - mobile/ipad
+ -md - ipad/desktop
+ -lg
+ -xl - extra large
+
+
+ col-3
+ col-2
+ col-4
